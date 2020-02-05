@@ -4,44 +4,67 @@ import "./MainContent.css";
 function MainContent() {
   return (
     <div>
-      <div class="pimg1">
-        <div class="ptext">
-          <strong class="border cover-border">Richa Deshwal</strong>
+      <div className="pimg1">
+        <div className="ptext">
+          <strong className="border">Richa Deshwal</strong>
         </div>
       </div>
-      <section class="section section-light">
+      <section className="section section-light">
         <h2>ABOUT ME</h2>
-
-        <p>
+        <p className="description">
           With over 9 years of professional experience in technology consulting,
           working as Front End Engineer, Technical Lead, and Scrum Master, I
           have delivered over 25 web projects with clients from insurance,
           pharmaceutical, telecommunications, and manufacturing industry based
-          in U.S. and Canada. Beyond the skill and experience, I bring in the
-          passion to deliver beyond my responsibilities. I believe in learning
-          each day, to be better the next day. Please go through my website to
-          find out more.
+          globally, U.S. and Canada.
+        </p>
+        <p className="description">
+          Beyond the skill and experience, I bring in the passion to deliver
+          beyond my responsibilities. I believe in learning each day, to be
+          better the next day. Please go through my website to find out more.
         </p>
       </section>
-      <div class="pimg2">
-        <div class="ptext">
-          <span class="border trans">Image two</span>
+      <div className="pimg2">
+        <div className="ptext">
+          <span className="border trans">SKILLS & TOOLS</span>
         </div>
       </div>
-      <section class="section section-dark">
-        <h2>Section two</h2>
-        <p>
-          Other some text in section two. Other some text in section two. Other
-          some text in section two. Other some text in section two. Other some
-          text in section two. Other some text in section two. Other some text
-          in section two.
-        </p>
+      <section className="section section-dark">
+        <span className="block">Scrum Master</span>
+        <span className="block">Team Management</span>
+        <span className="block">Web Development</span>
+        <span className="block">Agile Methodology</span>
+        <span className="block">HTML 5</span>
+        <span className="block">Javascript</span>
+        <span className="block">React</span>
+        <span className="block">CSS3</span>
+        <span className="block">Bootstrap</span>
+        <span className="block">Responsive Web Development</span>
+        <span className="block">Next JS</span>
+        <span className="block">jQuery</span>
+        <span className="block">Handlebars JS</span>
+        <span className="block">Accessibility</span>
+        <span className="block">SEO</span>
+        <span className="block">Less</span>
+        <span className="block">SASS</span>
+        <span className="block">BEM methodology using SASS</span>
+        <span className="block">Atlasssian Jira</span>
+        <span className="block">HP Agile Manager</span>
+        <span className="block">VersionOne</span>
       </section>
-      <div class="pimg3">
-        <div class="ptext">
-          <strong class="border trans">
-            SENIOR CONSULTANT AT DELOITTE CANADA
-          </strong>
+      <div className="pimg3">
+        <div className="ptext">
+          <span className="border trans">CONTACT</span>
+        </div>
+      </div>
+      <section className="section section-light">Contact details here</section>
+      <div className="img3-holder">
+        <div className="pimg4">
+          <div className="ptext">
+            <strong className="border trans">
+              SENIOR CONSULTANT AT DELOITTE CANADA
+            </strong>
+          </div>
         </div>
       </div>
     </div>
