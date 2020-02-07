@@ -10,7 +10,12 @@
 
 .pimg3 {
     background-image: url("../image/contact.jpeg");
-    min-height: 400px;
+    min-height: 200px;
+
+}
+
+.pimg3 .border.trans {
+    color: black;
 }
 
 .pimg4 {
@@ -20,6 +25,14 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.pimg4 .ptext .border {
+    color: black;
+}
+
+.pimg4 .ptext {
+    top: 70%;
 }
 
 .pimg1,
@@ -32,9 +45,30 @@
     background-attachment: fixed;
 }
 
-.section {
+.black {
+    color: black !important;
+}
+
+.center {
     text-align: center;
+}
+
+.section {
     padding: 50px 80px;
+}
+
+.contact.section {
+    background-color: black;
+}
+
+.contact.section .block {
+    cursor: pointer;
+    text-decoration: none;
+    background: lightsteelblue;
+}
+
+.contact.section .block:hover {
+    text-decoration: underline;
 }
 
 .section-light {
@@ -83,7 +117,7 @@
 }
 
 .block {
-    background: white;
+    background: #D8B69F;
     color: black;
     display: inline-block;
     padding: 6px 20px;

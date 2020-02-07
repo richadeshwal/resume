@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainContent.css";
-
 function MainContent() {
   return (
     <div>
@@ -10,13 +9,13 @@ function MainContent() {
         </div>
       </div>
       <section className="section section-light">
-        <h2>ABOUT ME</h2>
+        <h2 className="center">ABOUT ME</h2>
         <p className="description">
           With over 9 years of professional experience in technology consulting,
           working as Front End Engineer, Technical Lead, and Scrum Master, I
           have delivered over 25 web projects with clients from insurance,
-          pharmaceutical, telecommunications, and manufacturing industry based
-          globally, U.S. and Canada.
+          pharmaceutical, telecommunications, and manufacturing industries that
+          are based globally, U.S. and Canada.
         </p>
         <p className="description">
           Beyond the skill and experience, I bring in the passion to deliver
@@ -26,10 +25,10 @@ function MainContent() {
       </section>
       <div className="pimg2">
         <div className="ptext">
-          <span className="border trans">SKILLS & TOOLS</span>
+          <strong className="border trans black">SKILLS & TOOLS</strong>
         </div>
       </div>
-      <section className="section section-dark">
+      <section className="section section-dark center">
         <span className="block">Scrum Master</span>
         <span className="block">Team Management</span>
         <span className="block">Web Development</span>
@@ -54,10 +53,22 @@ function MainContent() {
       </section>
       <div className="pimg3">
         <div className="ptext">
-          <span className="border trans">CONTACT</span>
+          <strong className="border trans">CONTACT</strong>
         </div>
       </div>
-      <section className="section section-light">Contact details here</section>
+      <section className="section section-light contact center">
+        <a
+          className="block"
+          href="https://www.linkedin.com/in/richadeshwal/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Browse my linkedIn profile
+        </a>
+        <a href="mailto:deshwalricha8@gmail.com" className="block">
+          Connect over email
+        </a>
+      </section>
       <div className="img3-holder">
         <div className="pimg4">
           <div className="ptext">
