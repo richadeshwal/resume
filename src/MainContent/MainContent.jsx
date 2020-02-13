@@ -50,24 +50,8 @@ function MainContent() {
         <span className="block">Atlasssian Jira</span>
         <span className="block">HP Agile Manager</span>
         <span className="block">VersionOne</span>
-      </section>
-      <div className="pimg3">
-        <div className="ptext">
-          <strong className="border">CONTACT</strong>
-        </div>
-      </div>
-      <section className="section section-dark contact center">
-        <a
-          className="block"
-          href="https://www.linkedin.com/in/richadeshwal/"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Browse my LinkedIn profile
-        </a>
-        <a href="mailto:deshwalricha8@gmail.com" className="block">
-          Send me an email
-        </a>
+        <span className="block">Netlify</span>
+        <span className="block">Firebase</span>
       </section>
       <div className="pimgEducation">
         <div className="ptext">
@@ -90,6 +74,25 @@ function MainContent() {
           </span>
         </div>
       </section>
+      <div className="pimg3">
+        <div className="ptext">
+          <strong className="border">CONTACT</strong>
+        </div>
+      </div>
+      <section className="section section-dark contact center">
+        <a
+          className="block"
+          href="https://www.linkedin.com/in/richadeshwal/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Browse my LinkedIn profile
+        </a>
+        <a href="mailto:deshwalricha8@gmail.com" className="block">
+          Send me an email
+        </a>
+      </section>
+
       <div className="pimg4">
         <div className="ptext">
           <strong className="border trans">
