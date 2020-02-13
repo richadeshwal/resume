@@ -25,7 +25,7 @@ function MainContent() {
       </section>
       <div className="pimg2">
         <div className="ptext">
-          <strong className="border trans black">SKILLS & TOOLS</strong>
+          <strong className="border">SKILLS & TOOLS</strong>
         </div>
       </div>
       <section className="section section-dark center">
@@ -35,7 +35,7 @@ function MainContent() {
         <span className="block">Agile Methodology</span>
         <span className="block">HTML 5</span>
         <span className="block">Javascript</span>
-        <span className="block">React</span>
+        <span className="block">React JS</span>
         <span className="block">CSS3</span>
         <span className="block">Bootstrap</span>
         <span className="block">Responsive Web Development</span>
@@ -53,29 +53,48 @@ function MainContent() {
       </section>
       <div className="pimg3">
         <div className="ptext">
-          <strong className="border trans">CONTACT</strong>
+          <strong className="border">CONTACT</strong>
         </div>
       </div>
-      <section className="section section-light contact center">
+      <section className="section section-dark contact center">
         <a
           className="block"
           href="https://www.linkedin.com/in/richadeshwal/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Browse my linkedIn profile
+          Browse my LinkedIn profile
         </a>
         <a href="mailto:deshwalricha8@gmail.com" className="block">
-          Connect over email
+          Send me an email
         </a>
       </section>
-      <div className="img3-holder">
-        <div className="pimg4">
-          <div className="ptext">
-            <strong className="border trans">
-              SENIOR CONSULTANT AT DELOITTE CANADA
-            </strong>
-          </div>
+      <div className="pimgEducation">
+        <div className="ptext">
+          <strong className="border">EDUCATION & CERTIFICATIONS</strong>
+        </div>
+      </div>
+      <section className="section education section-dark center">
+        <div className="education-align">
+          <span className="alignLeft">
+            <strong>Bachelor of Technology - 2010 </strong>
+            <div>(Computer Science and Engineering)</div>
+            <div>73.2%</div>
+            <div>India</div>
+          </span>
+          <span className="alignRight">
+            <strong>Certified Scrum Master - 2019 </strong>
+            <div>(Scrum Alliance)</div>
+            <div>94%</div>
+            <div>Canada</div>
+          </span>
+        </div>
+      </section>
+      <div className="pimg4">
+        <div className="ptext">
+          <strong className="border trans">
+            SENIOR CONSULTANT AT DELOITTE CANADA
+          </strong>
         </div>
       </div>
     </div>
